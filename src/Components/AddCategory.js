@@ -8,6 +8,7 @@ export const AddCategory = ({setCategory}) => {
     }
     const handleSumbit = (e) =>{
       e.preventDefault();
+      console.log('handleSunmit');
       if (imputValiu.trimEnd().length>2) {
         setCategory( cats => [imputValiu,...cats]);
         setimputValiu('');
@@ -16,7 +17,7 @@ export const AddCategory = ({setCategory}) => {
     }
     return (
         <form onSubmit={handleSumbit}>
-            
+            <p> {imputValiu}</p>
             <h2> Añadir componete</h2>
             <input type='text' value={imputValiu} onChange={handleInputChange}></input>
             </form>

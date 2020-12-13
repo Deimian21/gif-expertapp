@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con AddCategory debe tener la categoria   1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+  </p>
+  <h2>
+     Añadir componete
+  </h2>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

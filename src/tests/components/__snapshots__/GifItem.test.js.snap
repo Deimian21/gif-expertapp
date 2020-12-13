@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas debe devolver el componente  1`] = `
+<div
+  className="animate__fadeIn"
+>
+  <img
+    alt="Prueba"
+    src="https://algo.jpg"
+  />
+  <p>
+    Prueba
+  </p>
+</div>
+`;
